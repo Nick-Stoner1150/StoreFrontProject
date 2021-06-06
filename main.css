@@ -50,7 +50,7 @@ header h1 {
 header h2 {
     font-weight: 300;
     font-size: 4em;
-    font-family: 'ZCOOL Kualie', cursive;
+    font-family: 'ZCOOL Kualie', cursive, 'Times New Roman', Times, serif;
     color: #2BA967;
     margin: -.4em 0 0 2em;
     text-transform: uppercase;
