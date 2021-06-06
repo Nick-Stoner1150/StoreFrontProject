@@ -152,6 +152,7 @@ nav#topMenu ul li.topNav a:hover {
     position: relative;
     padding-left: 35em;
     padding-top: 15em;
+    z-index: 1;
 }
 
 .middle h1 {
@@ -190,6 +191,8 @@ section div.panels {
     bottom: 6em;
     left: 10em;
     color: white;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .contentOne h2 {
