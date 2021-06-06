@@ -1,0 +1,297 @@
+/* Common Elements */
+body {
+    font-size: 67.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+}
+
+h1 {
+    color: #2BA967;
+    font-size: 2.5em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: #745b2f;
+    position: relative;
+    font-size: 2.5em;
+    padding: 0px;
+    margin: .5em 0 0.35em 0;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #555;
+    padding: 0px;
+    margin: 0px .5em .75em 0px;
+}
+
+.contentWrapper {
+    margin: 2.5em auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+/* Header */
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 .0em;
+    background-color: snow center 0px;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #745b2f;
+    font-size:8em;
+    letter-spacing: -.025em;
+    margin: 0 0 0 0em;
+}
+header h2 {
+    font-weight: 300;
+    font-size: 4em;
+    color: #2BA967;
+    margin: -.4em 0 0 2em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+button {
+    background-color: #2ba967;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    border-radius: 4px;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+button:hover {background-color: darkgreen;}
+button:visited {
+    background-color: darkgreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(10px);
+}
+/* Nav Bars */
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: .04em;
+    padding: 0em 0em 0em;
+    margin: 0 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #c64322;
+}
+nav#topMenu {
+    float: right;
+    margin: -1.5em;
+    padding: .35em;
+    background-color: rgba(64, 54, 47, 0.8);
+    border: transparent groove;
+    border-radius: 4px;
+    height: 1.3em;
+}
+nav#topMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+#navBar {
+    position: relative;
+    right: 1.25em;
+    font-size: 1.25em;
+}
+
+nav#topMenu ul li.topNav a, nav#topMenu ul li.topNav a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: .5em;
+    margin: -.4em 0 0 0;
+    font-size: .8em;
+}
+nav#topMenu ul li.topNav a.active {
+    background-color: #C64322;
+}
+nav#topMenu ul li.topNav a:hover {
+    background-color: rgba(252, 251, 243, .7)
+}
+
+/* Picture Section */
+.middle {
+    background-image: url(./assets/bikeheader.jpg);
+    background-size: 120% 100%;
+    height: 45em;
+
+}
+.quote {
+    width: 20em;
+    position: relative;
+    padding-left: 35em;
+    padding-top: 15em;
+}
+
+.middle h1 {
+    text-align: left;
+    font-size: 3em;
+    float: left;
+    color: white;
+
+}
+#pictureSection {
+    height: 50em;
+    background-color:transparent;
+}
+/* Main Section */
+#main {
+    margin: 0 0 2em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+section div.panels {
+    float: left;
+    position: relative;
+    width: 300px;
+    margin: 0em 1em 2em 1em;
+    padding: 1em 1.5em;
+    background-color: #fff;
+}
+
+.bikePics {
+    filter: blur(3px);
+}
+.contentOne {
+    position: absolute;
+    bottom: 6em;
+    left: 10em;
+    color: white;
+}
+
+.contentOne h2 {
+    color: white;
+}
+.contentOne button {
+    background-color: #2ba967;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.10em;
+    border-radius: 4px;
+    padding: .5em 1.65em;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+.contentOne button:hover {background-color: darkgreen;}
+.contentOne button:active {
+    background-color: darkgreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
+
+
+.container {
+    position: relative;
+    left: 12em;
+    max-width: 800px;
+
+}
+
+.container .content {
+    position: absolute;
+    bottom: 6.5em;
+    left: 32em;
+    color: white;
+}
+
+.content h2 {
+    color: white;
+}
+
+.content button {
+    background-color: #2ba967;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    border-radius: 4px;
+    padding: .5em 1.75em;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: darkgreen;
+}
+.content button:active {
+    background-color: darkgreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#accessories {
+    filter: blur(3px);
+}
+/* Footer */ 
+footer {
+    background-color: #40362f;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul  {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0em 1em;
+    margin: 0em;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
