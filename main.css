@@ -168,8 +168,8 @@ nav#topMenu ul li.topNav a:hover {
 }
 /* Main Section */
 #main {
-    margin: 0 0 2em;
-    padding: 1.5em 0 2.0em 1.5em;
+    margin: 0 0 2em 2.75em;
+    padding: 1.5em 1.5em 2.0em 1.5em;
     display: inline-block;
     border-radius: 2em;
     box-shadow: 1px 1px 5px #777;
